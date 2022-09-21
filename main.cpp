@@ -16,6 +16,19 @@
 // line will start at the top-left point of the cross and
 // will go counter-clockwise.
 //
+// A sample cross for the string "Kimberly" is given below:
+
+/*
+   * c4 = "by"     * c1 = "Ke"
+     *           *
+       *       *
+         *   *
+           *
+         *   *  
+       *       *
+     *           *
+   * c3 = "ml"     * c2 = "ir"
+                     */
 
 #include <iostream>
 using namespace std;
