@@ -4,15 +4,15 @@ The data is loaded into arrays using an algorithm based around a cross where cha
 the cross points. Each point will be an array holding encrypted data. A sample cross for the string "Kimberly"
 is given below:
 
-* c4 = "by"     * c1 = "Ke"
-  *           *
-    *       *
-      *   *
-        *
-      *   *  
-    *       *
-  *           *
-* c3 = "ml"     * c2 = "ir"
+@ c4 = "by"     @ c1 = "Ke"
+  @           @
+    @       @
+      @   @
+        @
+      @   @  
+    @       @
+  @           @
+@ c3 = "ml"     @ c2 = "ir"
 
 Per the diagram, the first array, c1, starts at the rightmost part of the cross and goes clockwise. The arrays will
 be loaded in a clockwise fashion starting at c1, where one character from the loaded data will be added to the array
