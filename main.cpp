@@ -1,8 +1,9 @@
-// Jarl Ramos
-// Cross Cipher
-// 05/03/2022
-//
-// Program Name: CrossCipher.cpp
+// ---------------------------------------------------------
+// NAME: Jarl Ramos
+// FILE: CrossCipher.cpp
+// ASGT: N/A
+// DATE: 3 May 2022
+// ---------------------------------------------------------
 // Description:
 // This program demonstrates the "Cross Cipher" concept
 // to where a string of text is encrypted has its constituent
@@ -30,6 +31,8 @@
    * c3 = "ml"     * c2 = "ir"
                      */
 
+// ---------------------------------------------------------
+
 #include <iostream>
 using namespace std;
 
@@ -43,7 +46,7 @@ struct CipherArray
 {
     char string[1000];
     // size of only the array items inputted by the user
-    int size = 0;
+    int size;
 };
 
 // the following function will load the arrays with
@@ -136,6 +139,8 @@ int main()
     CipherArray c2;
     CipherArray c3;
     CipherArray c4;
+    // set array sizes
+    c1.size = c2.size = c3.size = c4.size = 0;
     
     cout << "Please enter a string: ";
     cin  >> userString;
